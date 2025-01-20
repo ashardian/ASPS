@@ -65,31 +65,6 @@ Continuously monitors running processes to detect potential threats.
 
 ---
 
-## 📦 Required Libraries
-
-To run the Python script, make sure the following libraries are installed:
-
-- `os`
-- `psutil`
-- `ctypes`
-- `platform`
-- `sys`
-- `tkinter`
-- `win32com.client`
-- `pywinauto`
-- `subprocess`
-- `json`
-- `winreg`
-- `PIL` (Python Imaging Library)
-- `base64`
-- `io`
-- `win32security`
-- `win32process`
-- `win32con`
-- `win32gui`
-- `threading`
-- `time`
-- `traceback`
 
 ### Install Libraries
 Run the following command to install all necessary libraries:
