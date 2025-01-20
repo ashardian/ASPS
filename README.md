@@ -1,58 +1,73 @@
 # Advanced Screen Protection Suite
 
-**Comprehensive screen security and sandbox management**
+🚀 **Comprehensive Screen Security and Sandbox Management** 🚀
 
-The Advanced Screen Protection Suite is a powerful software designed to provide robust screen security and sandbox management capabilities. This suite is particularly useful for users concerned about unauthorized screen capturing, remote desktop control, and maintaining secure sandbox environments for applications.
+The Advanced Screen Protection Suite is your go-to solution for ensuring screen security and managing sandbox environments. Perfect for users who prioritize safeguarding their systems against unauthorized access and threats.
 
-## Features
+---
 
-### Security Features
+## 🛡️ Key Features
 
-1. **Screen Capture Detection**  
-   Detects attempts to capture the screen and alerts the user.
+### 1. Screen Capture Detection
+Detects attempts to capture the screen and instantly alerts the user.
 
-2. **Remote Desktop Control**  
-   Monitors and manages remote desktop sessions to prevent unauthorized access.
+### 2. Remote Desktop Control
+Monitors and manages remote desktop sessions to prevent unauthorized access.
 
-3. **Screen Capture Blocking**  
-   Blocks unauthorized screen capture attempts.
+### 3. Screen Capture Blocking
+Blocks unauthorized screen capture attempts effectively.
 
-4. **Remote Session Monitor**  
-   Monitors remote sessions for suspicious activity.
+### 4. Remote Session Monitor
+Tracks remote sessions for suspicious activity and maintains security.
 
-5. **Sandbox Environment**  
-   Provides a secure sandbox environment to run applications safely.
+### 5. Sandbox Environment
+Provides a secure sandbox to safely run and test applications.
 
-### Active Process Monitoring
+### 🔍 Active Process Monitoring
+Continuously monitors running processes to detect potential threats.  
+**Example:** Detected process - `smartscreen.exe (PID: 12916)`
 
-- Actively monitors running processes to detect potential threats.  
-  Example: Detected process - `smartscreen.exe (PID: 12916)`
+---
 
-## How to Use
+## 🖥️ How to Use (Windows Script)
 
-1. Clone this repository:
+1. **Download or Clone Repository**:
    ```bash
    git clone https://github.com/yourusername/advanced-screen-protection-suite.git
    ```
-2. Navigate to the project directory:
+
+2. **Navigate to the Directory**:
    ```bash
    cd advanced-screen-protection-suite
    ```
-3. Run the executable or launch the application from the appropriate folder.
 
-### User Interface Overview
-- Each feature in the application has an **Execute** button to activate its functionality.
-- A process monitor displays detected threats and monitored processes in real time.
+3. **Run the Script**:
+   - Ensure you have Python installed.
+   - Execute the script in a terminal or double-click the `.py` file:
+     ```bash
+     python main_script.py
+     ```
 
-## Requirements
+4. **Grant Administrator Privileges**:
+   - Some features require admin access. Right-click and select "Run as Administrator."
 
-- Windows 10/11
-- .NET Framework 4.7 or higher (if using the executable)
-- Python 3.8 or higher (if running the script directly)
+5. **User Interface**:
+   - Each feature has an **Execute** button to activate.
+   - Monitored processes and threats are displayed in real time.
 
-## Required Libraries
+---
 
-To run the Python script, the following libraries are required:
+## 📋 Requirements
+
+- **Operating System:** Windows 10/11
+- **Python Version:** 3.8 or higher
+- **Framework:** .NET Framework 4.7 or higher (for executables)
+
+---
+
+## 📦 Required Libraries
+
+To run the Python script, make sure the following libraries are installed:
 
 - `os`
 - `psutil`
@@ -76,22 +91,30 @@ To run the Python script, the following libraries are required:
 - `time`
 - `traceback`
 
-### Installing Required Libraries
-
-You can install the required libraries using `pip`:
+### Install Libraries
+Run the following command to install all necessary libraries:
 
 ```bash
 pip install psutil pywin32 pywinauto pillow
 ```
 
-## Contribution
+---
 
-Contributions are welcome! Please fork this repository and submit a pull request with your changes.
+## 🤝 Contributions
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+Contributions are always welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch for your feature/bugfix.
+3. Submit a pull request with a detailed description of your changes.
 
 ---
 
-For any issues or feedback, please open a GitHub issue or contact us directly.
+## 📜 License
+
+This project is licensed under the **MIT License**. For more details, see the [LICENSE](LICENSE) file.
+
+---
+
+## 📬 Contact Me
+
+For any issues, feedback, or questions, feel free to contact me via email: **zerodayguardian@onionmail.com**.
